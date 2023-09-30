@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.cabecero {
+    height: 12vh;
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+.barra {
+    height: 4px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: white;
+    margin: .2em;
+}
+
+.cabecero h1 {
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    padding-top: .5em;
+    padding-left: .5em;
+    color: white;
+    font-weight: 200;
+}
+
+.oneSection {
+    height:  48vh;
+    width: 100%;
+}
+
+.texto-onesection {
+    padding-left: 1em;
+    color: white;
+}
+
+.juntos {
+    background-color: #101517;
+}
+
+.texto-onesection h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.1rem;
+}
+
+.texto-onesection p {
+    font-family: sans-serif;
+    padding-top: 20px;
+    max-width: 300px;
+    padding-bottom: 28px;
+
+}
+
+.bn1 button {
+    padding: 1em 4em;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, border-radius 0.5s ease, colo 0.5s ease;
+    border: none;
+}
+
+.bn1 button:hover {
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+.twoosection {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.plantillas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car1 {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.car1 img {
+    object-fit: cover;
+}
+
+.plantillas img {
+    max-width: 270px;
+    transition: transform 0.5s ease;
+    margin: .5em;
+    border-radius: 15px;
+}
+
+.plantillas img:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.Slogan{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding-top: 35px;
+}
+
+.titleSlogan {
+    padding-left: 1em;
+}
+
+.titleSlogan h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    max-width: 350px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.titleSlogan p {
+    font-family: sans-serif;
+    font-size: 1rem;
+    max-width: 400px;
+    margin-right: 2em;
+    padding-bottom: 20px;
+}
+
+.objetos-link {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 5em;
+
+
+}
+
+.objetos-link p {
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+   
+    cursor: pointer;
+    transition: color 0.5s ease;
+    color: #707374;
+}
+
+.objetos-link p:hover {
+    color: white;
+}
+
+.ventana {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 227px;
+    width: 90%;
+    background-image: url("/imgWeb/geinzBlogs.png");
+    background-size: cover;
+    transition: background-image 0.5s ease;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 2em;
+    transform: translate(-50%);
+}
+
+.Slogan2 {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-color: #F6F7F7;
+}
+
+.moviemineto {
+    position: absolute;
+    top: 20%;
+    transform: translate(50%, );
+}
+
+.text-moviemiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Slogan2 p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    padding-bottom: 50px;
+    font-size: 25px;
+    margin: 0em .5em;
+}
+
+.bn2 button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, border-radius 0.5s ease;
+    background-color: black;
+    color: white;
+}
+
+.bn2 button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.Soporte {
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #E9F0F5;
+}
+
+.title_soporte {
+    padding-left: 1em;
+}
+
+.title_soporte h1 {
+    padding-top: 10%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 590;
+
+}
+
+.bn3 button {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, border-radius 0.5s ease;
+    background-color: black;
+    color: white;
+}
+
+.bn3 button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.title_soporte p {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-top: 2em;
+    max-width: 400px;
+    margin-right: .6em;
+}
+
+.sporte_img img {
+    max-width: 350px;
+    position: absolute;
+    left: 30%;
+}
+
+.Slogan3 {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-color: #13191E;
+    color: white;
+    overflow: hidden;
+}
+
+.titleSlogan3 {
+    padding-left: 1em;
+    padding-bottom: 2em;
+
+}
+
+.Centado-geinz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Centado-geinz img {
+    max-width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -5%;
+
+}
+
+.titleSlogan3 h1 {
+    padding-top: 40px;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    max-width: 450px;
+    margin-bottom: .5em;
+}
+
+.titleSlogan3 p {
+    font-family: sans-serif;
+    padding-top: 1em;
+    max-width: 400px;
+    margin-right: 2em;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.palabras_slogan3 {
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+}
+
+.palabras_slogan3 p {
+    margin: 0em 1em;
+    white-space: nowrap;
+}
+
+.confia {
+    height: 100%;
+    width: 100%;
+    background-color: #3D76A1;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.palabras {
+    padding-left: 1em;
+    padding-top: 2em;
+}
+
+.flexs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cj {
+    width: 80%;
+    height: 200px;
+    background-color: #132054;
+    margin: .5em;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cj img {
+    position: absolute;
+    max-width: 40px;
+    left: .5em;
+    top: 1em;
+}
+
+.palabras h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.palabras p {
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: .3em;
+}
+
+.bn4 button {
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, border-radius 0.5s ease;
+    background-color: white;
+    color: black;
+    margin-left: .5em;
+    border: none;
+}
+
+.bn4 button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.cj h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.cj p {
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 13px;
+    top: 45%;
+    left: 5%;
+    width: 70%;
+}
+
+.video {
+    text-align: center;
+    padding: 20px;
+    background-color: #13191E;
+    color: white;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+}
+
+.videopadre {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Estilos para el video */
+.videoGeinz {
+    width: 80%;
+    /* Ancho medio */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centrar horizontalmente */
+}
+
+/* Estilo para hacer que el video se repita siempre */
+video {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 5px;
+
+}
+
+.video h1 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+
+.video p {
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
